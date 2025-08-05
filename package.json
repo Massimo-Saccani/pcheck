@@ -1,5 +1,5 @@
 {
-  "name": "pcheck",
+  "name": "paudit",
   "version": "1.0.0",
   "description": "Checks for duplicate, unused, and outdated dependencies in package.json",
   "main": "index.js",

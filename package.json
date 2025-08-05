@@ -1,0 +1,18 @@
+{
+  "name": "pcheck",
+  "version": "1.0.0",
+  "description": "Checks for duplicate, unused, and outdated dependencies in package.json",
+  "main": "index.js",
+  "bin": {
+    "package-json-check": "./cli.js"
+  },
+  "type": "module",
+  "keywords": [
+    "package.json",
+    "dependency-check",
+    "outdated",
+    "npm"
+  ],
+  "author": "Massimo Saccani",
+  "license": "MIT"
+}

@@ -1,6 +1,6 @@
 {
   "name": "paudit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks for duplicate, unused, and outdated dependencies in package.json",
   "main": "index.js",
   "bin": {

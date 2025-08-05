@@ -11,7 +11,7 @@ npm install -g paudit
 ```
 
 ## Usage
-From CLI:
+From CLI (cd into your project folder first, where there is the package.json file):
 ```bash
 paudit
 ```

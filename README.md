@@ -1,4 +1,4 @@
-# package-json-check
+# paudit
 
 A tool to check:  
 - **Duplicate** packages between dependencies and devDependencies  
@@ -7,22 +7,22 @@ A tool to check:
 
 ## Installation
 ```bash
-npm install -g package-json-check
+npm install -g paudit
 ```
 
 ## Usage
 From CLI:
 ```bash
-package-json-check
+paudit
 ```
 Or with JSON output (for CI/CD):
 ```bash
-package-json-check --json
+paudit --json
 ```
 
 ## As a library
 ```js
-import { checkPackageJson } from "package-json-check";
+import { checkPackageJson } from "paudit";
 
 const result = await checkPackageJson({ outputJson: true });
 console.log(result);

@@ -1,18 +1,22 @@
 {
   "name": "paudit",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Checks for duplicate, unused, and outdated dependencies in package.json",
   "main": "index.js",
   "bin": {
-    "package-json-check": "./cli.js"
+    "paudit": "./cli.js"
   },
   "type": "module",
   "keywords": [
     "package.json",
-    "dependency-check",
-    "outdated",
-    "npm"
+    "dependencies",
+    "audit",
+    "npm",
+    "outdated"
   ],
   "author": "Massimo Saccani",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^8.0.1"
+  }
 }
